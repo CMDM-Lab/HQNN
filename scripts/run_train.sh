@@ -12,3 +12,6 @@ python chempropIRZenodo/chempropIR/train.py \
 # if we don't want to seperate data auto, using the following recommended_config to assign the validation set and test set
 # --separate_val_path \
 # --separate_test_path \
+
+# If we want to fine-tune on a pretrained model, specify the checkpoint path using:
+# --checkpoint_path <path_to_pretrained_model.pt>
